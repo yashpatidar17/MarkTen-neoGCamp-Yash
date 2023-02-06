@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="heading">Cash Register Manager</h1>
+        <p class="para">Please give bill amount and cash to knoe minimum number of notes for change</p>
+        <label for="billAmount">Bill Amount :</label>
+        <input id="billAmount"/>
+        <label for="givenCash">Cash Given :</label>
+        <input id="givenCash"/>
+        <button id="checkButton">Check</button>
+        <p id="ErrorMessage"></p>
+        <table class="changeTable">
+            <caption>Return Change</caption>
+            <tr>
+                <th>No of Notes</th>
+                <td></td>
+            </tr>
+            <tr>
+                <th>Notes</th>
+                <td>2000</td>
+                <td>500</td>
+                <td>100</td>
+                <td>20</td>
+                <td>10</td>
+                <td>5</td>
+                <td>1</td>
+            </tr>
+        </table>
+    </div>
+<script src="main.js"></script>
+</body>
+</html>
